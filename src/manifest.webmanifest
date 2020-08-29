@@ -2,7 +2,7 @@
   "name": "ListaDellaSpesa",
   "short_name": "ListaDellaSpesa",
   "theme_color": "#2c87ff",
-  "background_color": "#fafafa",
+  "background_color": "#2c87ff",
   "display": "standalone",
   "scope": "./",
   "start_url": "./",
