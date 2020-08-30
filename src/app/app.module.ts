@@ -11,7 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { UpbarComponent } from './upbar/upbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon'
+import { DragDropModule } from '@angular/cdk/drag-drop'
 
 @NgModule({
   declarations: [
@@ -22,7 +22,7 @@ import { MatIconModule } from '@angular/material/icon'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule, MatSnackBarModule, MatToolbarModule, MatIconModule,
+    AppRoutingModule, MatSnackBarModule, MatToolbarModule, DragDropModule, 
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
     BrowserAnimationsModule
   ],
