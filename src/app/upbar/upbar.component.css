@@ -4,6 +4,7 @@
 mat-toolbar{
     box-shadow: 0 0 5px 0 black;
     position: fixed;
+    z-index: 1001;
 }
 
 #user{

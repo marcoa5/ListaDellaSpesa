@@ -12,7 +12,7 @@ export class ListaComponent implements OnInit {
   sb: MatSnackBar;
   ngOnInit(): void {
     for(var i=1;i<100;i++){
-      this.lista.push('elemento '+ i)
+      this.lista.push('Elemento '+ i)
     }
     this.lista.sort();
   }
