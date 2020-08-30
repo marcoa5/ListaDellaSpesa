@@ -1,0 +1,18 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+mat-toolbar{
+    box-shadow: 0 0 5px 0 black;
+    position: fixed;
+}
+
+#user{
+    position: absolute;
+    right: 15px;
+    display: flex;
+    padding: 0 5px;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 0 4px 0 black;
+    cursor: pointer;
+}

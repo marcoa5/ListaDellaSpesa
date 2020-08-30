@@ -1,3 +1,5 @@
+
 <div *ngFor="let al of lista; let i = index">
-    <li>{{i+1}} - {{al}} </li>
+    <label><input class="uk-checkbox" type="checkbox" (click)="delete(al)"> {{ al }}</label>
 </div>
+   
